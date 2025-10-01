@@ -8,87 +8,179 @@
   <body>
     <!-- Navbar responsiva para desktop e mobile -->
     <nav class="fixed top-0 left-0 right-0 bg-pink-200 shadow-md z-10 text-xl">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-center items-center h-12">
-                <!-- Menu para desktop -->
-                <div class="hidden md:flex items-center space-x-4">
-                    <a href="#QuemSomos" class="text-gray-700 hover:text-pink-700">Quem somos nós?</a>
-                    <a href="#NossosObjetivos" class="text-gray-700 hover:text-pink-700">Nossos objetivos</a>
-                    <a href="#Projetos" class="text-gray-700 hover:text-pink-700">Projetos</a>
-                    <a href="#MeninasDigitais" class="text-gray-700 hover:text-pink-700">Meninas Digitais</a>
-                    <a href="#Integrantes" class="text-gray-700 hover:text-pink-700">Integrantes</a>
-                    <a href="#ContateNos" class="text-gray-700 hover:text-pink-700">Contate-nos</a>
-                </div>
-                 <!-- Botão do menu mobile -->
-                <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-button" class="outline-none mobile-menu-button">
-                        <svg class="w-6 h-6 text-gray-700 hover:text-pink-700" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                            <path d="M4 6h16M4 12h16m-7 6h7"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-center items-center h-12">
+          <!-- Menu para desktop -->
+          <div class="hidden md:flex items-center space-x-4">
+            <a href="#QuemSomos" class="text-gray-700 hover:text-pink-700"
+              >Quem somos nós?</a
+            >
+            <a href="#NossosObjetivos" class="text-gray-700 hover:text-pink-700"
+              >Nossos objetivos</a
+            >
+            <a href="#Projetos" class="text-gray-700 hover:text-pink-700"
+              >Projetos</a
+            >
+            <a href="#MeninasDigitais" class="text-gray-700 hover:text-pink-700"
+              >Meninas Digitais</a
+            >
+            <a href="#Integrantes" class="text-gray-700 hover:text-pink-700"
+              >Integrantes</a
+            >
+            <a href="#ContateNos" class="text-gray-700 hover:text-pink-700"
+              >Contate-nos</a
+            >
+          </div>
+          <!-- Botão do menu mobile -->
+          <div class="md:hidden flex items-center">
+            <button
+              id="mobile-menu-button"
+              class="outline-none mobile-menu-button"
+            >
+              <svg
+                class="w-6 h-6 text-gray-700 hover:text-pink-700"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M4 6h16M4 12h16m-7 6h7"></path>
+              </svg>
+            </button>
+          </div>
         </div>
+      </div>
 
-        <!-- Menu para mobile -->
-        <div id="mobile-menu" class="hidden md:hidden">
-            <a href="#QuemSomos" class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100">Quem somos nós?</a>
-            <a href="#NossosObjetivos" class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100">Nossos objetivos</a>
-            <a href="#Projetos" class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100">Projetos</a>
-            <a href="#MeninasDigitais" class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100">Meninas Digitais</a>
-            <a href="#Integrantes" class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100">Integrantes</a>
-            <a href="#ContateNos" class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100">Contate-nos</a>
-        </div>
+      <!-- Menu para mobile -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <a
+          href="#QuemSomos"
+          class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100"
+          >Quem somos nós?</a
+        >
+        <a
+          href="#NossosObjetivos"
+          class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100"
+          >Nossos objetivos</a
+        >
+        <a
+          href="#Projetos"
+          class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100"
+          >Projetos</a
+        >
+        <a
+          href="#MeninasDigitais"
+          class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100"
+          >Meninas Digitais</a
+        >
+        <a
+          href="#Integrantes"
+          class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100"
+          >Integrantes</a
+        >
+        <a
+          href="#ContateNos"
+          class="block px-4 py-2 text-md text-gray-700 hover:bg-pink-100"
+          >Contate-nos</a
+        >
+      </div>
     </nav>
 
     <div id="Logo" class="mt-16 flex justify-center items-center">
-        <p>Logo Program.Ada</p>
+      <p>Logo Program.Ada</p>
     </div>
 
-    <div id="QuemSomos" class="mt-16">
-        <h2>Quem somos nós?</h2>
-        <p>Texto quem somos nós</p>
+    <div id="QuemSomos" class="mt-16 max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-4">Quem somos nós?</h2>
+      <div id="QuemSomosText" class="max-w-3xl mx-auto">
+        <p>
+          O Program.Ada nasceu no Instituto de Informática em 2017, quando um
+          grupo de alunas se uniu para enfrentar situações de assédio vividas na
+          universidade. Dessa iniciativa, surgiram a Comissão de Relacionamentos
+          do INF e o Coletivo de Mulheres na Computação.
+        </p>
+        <p>
+          No começo, o coletivo ainda não possuía um nome. Com o tempo,
+          percebemos a importância de celebrar a trajetória de Ada Lovelace,
+          considerada a primeira programadora da história, e assim surgiu o
+          Program.Ada.
+        </p>
+        <p>
+          Desde então, realizamos rodas de conversa, cine-debates, oficinas e
+          eventos que fortalecem o protagonismo das mulheres na tecnologia e
+          promovem reflexões sobre gênero e inclusão na comunidade acadêmica e
+          além dela.
+        </p>
+        <p>
+          Em 2023, o coletivo deu um passo marcante ao se tornar também um
+          projeto de extensão universitária, ampliando seu alcance e o impacto
+          de suas ações na sociedade.
+        </p>
+      </div>
     </div>
 
-    <div id="NossosObjetivos" class="mt-16">
-        <h2>Nossos objetivos</h2>
-        <p>Lista objetivos</p>
+    <div id="NossosObjetivos" class="mt-16 max-w-5xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-4">Nossos objetivos</h2>
+      <ul class="list-disc pl-6 space-y-2 max-w-3xl mx-auto">
+        <li>
+          Construir um espaço seguro e acolhedor, onde mulheres possam
+          compartilhar experiências, trocar ideias e dialogar sobre temas em
+          comum.
+        </li>
+        <li>
+          Apoiar a inserção de mulheres no mercado de tecnologia, oferecendo
+          desde oportunidades de networking até suporte na elaboração de
+          currículos e trajetórias profissionais.
+        </li>
+        <li>
+          Promover atividades e eventos para a comunidade, ampliando as
+          discussões sobre a presença das mulheres na tecnologia e sua atuação
+          no mercado de trabalho.
+        </li>
+        <li>
+          Transformar o INF em um ambiente mais inclusivo e amigável para
+          mulheres, incentivando o respeito, à diversidade e a equidade de
+          gênero.
+        </li>
+      </ul>
     </div>
 
-    <div id="Projetos" class="mt-16">
-        <h2>Projetos</h2>
-        <p>Slider projetos</p>
+    <div id="Projetos 2024/2025" class="mt-16 max-w-5xl mx-auto px-4">
+      <h2>Projetos</h2>
+      <p>Slider projetos</p>
     </div>
 
     <div id="MeninasDigitais" class="mt-16">
-        <h2>Meninas Digitais</h2>
-        <p>Texto meninas digitais</p>
+      <h2>Meninas Digitais</h2>
+      <p>Texto meninas digitais</p>
     </div>
 
     <div id="Integrantes" class="mt-16">
-        <h2>Integrantes</h2>
-        <p>Grid integrantes</p>
+      <h2>Integrantes</h2>
+      <p>Grid integrantes</p>
     </div>
 
     <div id="ContateNos" class="mt-16">
-        <h2>Contate-nos</h2>
-        <p>Form contate-nos</p>
+      <h2>Contate-nos</h2>
+      <p>Form contate-nos</p>
     </div>
 
     <footer class="flex justify-center space-x-4 bg-pink-200 p-4">
-        <p>Instagram</p>
-        <p>LinkedIn</p>
-        <p>IDE</p>
+      <p>Instagram</p>
+      <p>LinkedIn</p>
+      <p>IDE</p>
     </footer>
 
     <!-- Script para alternar o menu mobile (separar do código depois)-->
     <script>
-        const btn = document.getElementById('mobile-menu-button');
-        const menu = document.getElementById('mobile-menu');
+      const btn = document.getElementById("mobile-menu-button");
+      const menu = document.getElementById("mobile-menu");
 
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
     </script>
   </body>
 </html>
